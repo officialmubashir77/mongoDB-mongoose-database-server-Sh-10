@@ -1,0 +1,44 @@
+Data Storage -->
+    aisa kuch jhan par ham sare users ki info store kar skty hyn file - data.txt but it is temporary but database is permanent.
+
+Types of DBS -- SQL | NoSQL -->
+    SQL | NoSQL
+    SQL DBs - MySQL, PostgreSQL, Oracle, SQL Server, SQLite, MariaDB
+    NoSQL DBs - MongoDB, Cassandra, Couchbase, Redis, Neo4j, Elasticsearch
+
+    we read NoSQL -- MongoDB is a database and this is base on objects e.g json
+    NoSQL - data ko ek roop me rakhna table wise structure - tables (Tabular form)
+    NoSQL - Objects way me data
+    MongoDB - JSON-like data
+
+What and why -->.
+    username 
+    password
+    userImage 
+    email
+    createdDate
+    lastLoginDate
+    status (active/inactive)
+
+Terminologies - collections , documents , schemas , keys , models
+
+Backend -->
+    Application server                  and                 database server
+    node                                                    MongoDB
+    facebook.com (req) but not data calculation itself      login check user credential logout
+
+
+Database Server ->
+    Database
+        collections -> users ---> schemas model for our accept form data
+        collections -> products ---> schemas model for our accept form data
+        collections -> orders ---> schemas model for our accept form data
+        collections -> carts ---> schemas model for our accept form data
+        collections -> reviews ---> schemas model for our accept form data
+
+        if in users collections and we only see only one user document its called document.
+
+CODE  ---------------------------------  DATABASE
+mongoose.connect                        database connect
+user model create                       users collection
+CREATE Code                             document
